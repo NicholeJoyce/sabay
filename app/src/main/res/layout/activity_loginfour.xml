@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightbg"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".loginfour">
+
+    <ImageView
+        android:src="@drawable/illustrationtwo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+    <TextView
+        android:text="credentials"
+        android:textSize="15sp"
+        android:layout_marginRight="140dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#430852"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="step 3 of 3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="155dp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#430852"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtUsername"
+            android:hint="username"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtEmailCred"
+            android:hint="email"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtPassword"
+            android:hint="password"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtConfirmPassword"
+            android:hint="confirm password"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnNext3"
+        android:text="next"
+        android:layout_width="355dp"
+        android:backgroundTint="@color/darkbg"
+        android:layout_height="wrap_content"
+        />
+
+
+
+</LinearLayout>

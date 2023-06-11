@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/lightbg"
+    tools:context=".logintwo">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/illustrationtwo"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:text="personal information"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#430852"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="step 1 of 3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="155dp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#430852"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtFirstName"
+            android:hint="first name"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtMiddleName"
+            android:hint="middle name"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtLastName"
+            android:hint="last name"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtContactNumber"
+            android:hint="contact number"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:text="address"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#430852"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtBarangay"
+            android:hint="barangay"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtCity"
+            android:hint="city"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtProvince"
+            android:hint="province"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginLeft="20dp"
+        android:text="next"
+        android:id="@+id/btnNext1"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#430852"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_width="360dp"
+        android:layout_height="55dp"/>
+
+</LinearLayout>
+</ScrollView>
